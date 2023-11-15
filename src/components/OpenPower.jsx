@@ -133,16 +133,8 @@ const FeatureCard = ({ index, title, icon, content }) => {
 };
 
 export const OpenPower = () => {
-  useEffect(() => {
-    // Check if the URL contains the hash and scroll to the element
-    if (window.location.hash === '#openpower') {
-      const element = document.getElementById('openpower');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }, []);
-  return (<div id="openpower">
+  return (
+    <>
 <motion.div variants={textVariant()}>
   <p className={styles.sectionSubText}>Introduction</p>
   <h2 className={styles.sectionHeadText}>Welcome To The OpenPower</h2>
@@ -160,7 +152,7 @@ OpenPower is not just a power bank; it's a versatile, high-capacity portable pow
         <FeatureCard key={feature.title} index={index} {...feature} />
       ))}
     </div>
-    </div>
+    </>
   );
 };
 

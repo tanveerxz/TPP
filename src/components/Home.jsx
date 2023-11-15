@@ -39,7 +39,7 @@ export const Home = () => {
             delay: 40,
             strings: [
               'Hey There',
-              'Welcome To The Power Project',
+              'Welcome To The Powered Project',
               'Scroll Down To See More',
             ],
           }}
