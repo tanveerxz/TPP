@@ -12,7 +12,7 @@ const Footer = () => {
 
       {/* Main Content Section */}
       <div className="footer">
-        <p>&copy; {currentYear} The Power Project. All rights reserved.</p>
+        <p>&copy; {currentYear} The Powered Project. All rights reserved.</p>
 
         <div className="quick-links">
           <p>Quick Links:</p>
